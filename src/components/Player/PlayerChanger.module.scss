@@ -1,0 +1,67 @@
+.Changer{
+    display: flex;
+    flex-wrap: wrap;
+
+    & .plyr {
+        background: white;
+        overflow: hidden;
+        border-radius: 4px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+      }
+}
+
+.Input, .Submit{
+    border-radius: 3px;
+    padding: 12px 17px;
+    transition: background-color .3s ease, color .3s ease, box-shadow .3s ease, border .3s ease;
+}
+
+.Input{
+    flex-grow: 2;
+    border: 1px solid rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+
+    &:invalid {
+        border-color: #e74c3c;
+    }
+
+    &:focus {
+        border: 1px solid #1aafff;
+    }
+
+    &:focus::placeholder {
+        color: #a8a7a7;
+    }
+}
+
+.Submit {
+    background-color: #1aafff;
+    color: #fff;
+    box-shadow: 0 1px 1px #1e81b6;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 20px;
+
+    &:hover {
+        background: #46beff;
+    }
+
+    &:focus {
+        box-shadow: 0 0 0 5px rgba(26, 175, 255, .5);
+        outline: 0;
+    }
+}
+
+.Error {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: all .3s ease;
+    width: 100%;
+    color: #e74c3c;
+
+    &:not(:empty){
+        max-height: unset;
+        opacity: 1;
+    }
+}

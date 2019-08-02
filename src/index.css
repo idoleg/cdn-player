@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+input, button {
+    border: 0px;
+    outline: none;
+    background-color: transparent;
+}

@@ -1,0 +1,20 @@
+.PageSection {
+    display: flex;
+    justify-content: center;
+}
+
+.Content {
+    margin: 30px 20px;
+    flex-grow: 1;
+    max-width: 800px;
+}
+
+.Content>*:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.Title {
+    text-shadow: 0 1px 1px rgba(0,0,0, .15);
+    font-weight: 700;
+    font-size: 30px;
+}

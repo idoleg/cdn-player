@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageSection render correctly PageSection component with content 1`] = `
+<main
+  className="PageSection"
+>
+  <section
+    className="Content"
+  >
+    <header
+      className="Title"
+    >
+      Title
+    </header>
+    <div>
+      It's my content
+    </div>
+  </section>
+</main>
+`;
+
+exports[`PageSection render correctly empty PageSection component 1`] = `
+<main
+  className="PageSection"
+>
+  <section
+    className="Content"
+  >
+    <header
+      className="Title"
+    >
+      Title
+    </header>
+  </section>
+</main>
+`;
