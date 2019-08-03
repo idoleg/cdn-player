@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/cdn-player/static/css/main.d8199224.chunk.css",
+    "main.js": "/cdn-player/static/js/main.bdbdd9eb.chunk.js",
+    "main.js.map": "/cdn-player/static/js/main.bdbdd9eb.chunk.js.map",
+    "runtime~main.js": "/cdn-player/static/js/runtime~main.2d809ab2.js",
+    "runtime~main.js.map": "/cdn-player/static/js/runtime~main.2d809ab2.js.map",
+    "static/css/2.8ebbe4b8.chunk.css": "/cdn-player/static/css/2.8ebbe4b8.chunk.css",
+    "static/js/2.5de2627b.chunk.js": "/cdn-player/static/js/2.5de2627b.chunk.js",
+    "static/js/2.5de2627b.chunk.js.map": "/cdn-player/static/js/2.5de2627b.chunk.js.map",
+    "index.html": "/cdn-player/index.html",
+    "precache-manifest.7b2a94c30568c712e70da1f4d54314d0.js": "/cdn-player/precache-manifest.7b2a94c30568c712e70da1f4d54314d0.js",
+    "service-worker.js": "/cdn-player/service-worker.js",
+    "static/css/2.8ebbe4b8.chunk.css.map": "/cdn-player/static/css/2.8ebbe4b8.chunk.css.map",
+    "static/css/main.d8199224.chunk.css.map": "/cdn-player/static/css/main.d8199224.chunk.css.map"
+  }
+}
