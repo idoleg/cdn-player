@@ -1,6 +1,10 @@
 import React from "react";
 import PlayerChanger from "./components/Player/PlayerChanger";
+import Greeting from "./components/Greeting/Greeting";
 
 export default () => (
-	<PlayerChanger />
+  <div>
+    <PlayerChanger />
+    <Greeting />
+  </div>
 );
