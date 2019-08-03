@@ -8,6 +8,11 @@ describe("PageSection", () => {
 	it("render correctly empty PageSection component", () => {
 		const PageSectionComponent = renderer.create(<PageSection />).toJSON();
 		expect(PageSectionComponent).toMatchSnapshot();
+  });
+
+  it("render correctly empty PageSection component with className", () => {
+		const PageSectionComponent = renderer.create(<PageSection className="test-class" />).toJSON();
+		expect(PageSectionComponent).toMatchSnapshot();
 	});
 
 	it("render correctly PageSection component with content", () => {
@@ -17,5 +22,5 @@ describe("PageSection", () => {
 			</PageSection>).toJSON();
 		expect(PageSectionComponent).toMatchSnapshot();
 	});
-    
+
 });
