@@ -1,0 +1,105 @@
+.Overlay {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .50);
+}
+
+.HistoryModal{
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+  position: fixed;
+  max-width: 500px;
+  width: 90vw;
+  left: 50%;
+  transform: translateX(-50%);
+  border: none;
+  border-radius: 5px;
+  animation: show-modal .3s;
+  height: 70vh;
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+  outline: none;
+  overflow: hidden;
+}
+
+.Header {
+  position: relative;
+  background: linear-gradient(to left top, #81ecec, #00cec9);
+  /* background: linear-gradient(to left top,#21a7f0,#0074b3); */
+  color: white;
+  border-radius: 5px 5px 0 0;
+  padding: 20px;
+  text-align: center;
+
+  & h3 {
+    font-weight: 600;
+    padding-bottom: 10px;
+  }
+
+  & span {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+.CloseHeaderButton {
+  cursor: pointer;
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  padding: 6px 25px 6px 6px;
+  font-size: 14px;
+  color: transparent;
+  background-color: rgba(0, 0, 0, .15);
+  border-radius: 50% 0px 0px 50%;
+
+  &::after {
+    content: "✕";
+    transition: transform .3s ease;
+    font-size: 12px;
+    background-color: #00cec9;
+    color: #fff;
+    position: absolute;
+    top: 6px;
+    left: 5px;
+    bottom: 6px;
+    width: 21px;
+    line-height: 21px;
+    z-index: 1;
+    border-radius: 50%;
+  }
+
+  &:hover::after {
+    transform: rotate(180deg);
+    /* scale(1.4); */
+    background-color: #e74c3c;
+  }
+}
+
+.HistoryList{
+  height: 100%;
+  overflow-y: auto;
+  background-color: white;
+  padding: 20px;
+}
+
+@keyframes show-modal {
+  0% {
+      transform: scale(.7) translateX(-50%);
+  }
+  45% {
+      transform: scale(1.05) translateX(-50%);
+  }
+  80% {
+      transform: scale(.95) translateX(-50%);
+  }
+  100% {
+      transform: scale(1) translateX(-50%);
+  }
+}
