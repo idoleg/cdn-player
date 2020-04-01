@@ -2,11 +2,14 @@
   "name": "cdn-player",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://idoleg.github.io/cdn-player/",
   "dependencies": {
     "plyr": "^3.5.6",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-modal": "^3.9.1",
+    "react-scripts": "3.0.1",
+    "use-middleware-reducer": "^1.2.0"
   },
   "scripts": {
     "start": "react-scripts start",

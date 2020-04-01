@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Greeting.module.css";
-import PageSection from "../PageSection/PageSection"
+import PageSection from "../PageSection/PageSection";
 
 export default (props) => (
   <PageSection title="What's up?" className={classes.Greeting}>
